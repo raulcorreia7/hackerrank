@@ -13,16 +13,7 @@ void minimumBribes(vector<int> q) {
     int num_of_bribes = 0;
     bool chaotic = false;
     const string message = "Too chaotic";
-    //1 2 5 3 7 8 6 4
-    //1 2 5 3 7 6 8 4
-    //1 2 5 3 7 6 4 8
-    //1 2 5 3 6 7 4 8
-    //1 2 5 3 6 4 7 8
-    //1 2 5 3 4 6 7 8
-    //1 2 3 5 4 6 7 8
-    //1 2 3 4 5 6 7 8
     vector<int> vec_temp (q);
-    vector<int> moves;
     moves.reserve(q.size());
     for(int i = 0 ; i < q.size() ; ++i)
     {
