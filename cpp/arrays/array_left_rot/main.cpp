@@ -11,8 +11,6 @@ vector<string> split_string(string);
 
 // Complete the rotLeft function below.
 vector<int> rotLeft(vector<int> a, int d) {
-
-    int num_rotations = d % a.size();
     vector<int> vec_trail_to_end;
     vector<int> vec_staring_numbers;
     for(int i = 0; i < a.size() ; ++i)
